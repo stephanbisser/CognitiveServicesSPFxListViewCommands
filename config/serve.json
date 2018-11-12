@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://solvionat.sharepoint.com/sites/AISOLVION/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FAISOLVION%2FShared%20Documents%2FDemos",
+      "customActions": {
+        "a20bc06a-263c-4f86-8ea7-cef9b1dc8d12": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "cogSvcCommands": {
+      "pageUrl": "https://solvionat.sharepoint.com/sites/AISOLVION/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FAISOLVION%2FShared%20Documents%2FDemos",
+      "customActions": {
+        "a20bc06a-263c-4f86-8ea7-cef9b1dc8d12": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

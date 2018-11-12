@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.6.0",
+    "libraryName": "cog-svc-commands",
+    "libraryId": "1723f610-2f54-42d3-b65d-a264d1e11f89",
+    "environment": "spo",
+    "packageManager": "npm",
+    "framework": "react",
+    "isCreatingSolution": true
+  }
+}
